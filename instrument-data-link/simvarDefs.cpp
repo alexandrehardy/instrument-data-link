@@ -158,12 +158,12 @@ const char* SimVarDefs[][2] = {
     { "Atc Airline", "string32" },
     { "Atc Flight Number", "string32" },
     { "Atc Heavy", "bool" },
+    // GPS
+    { "Plane Latitude", "degrees" },
+    { "Plane Longitude", "degrees" },
     // Internal variables must come last
     { "Landing Rate", "internal" },
     { "Skytrack State", "internal" },
-    // GPS
-    { "PLANE LATITUDE", "degrees" },
-    { "PLANE LONGITUDE", "degrees" },
     { NULL, NULL }
 };
 

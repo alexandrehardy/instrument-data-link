@@ -162,12 +162,12 @@ struct SimVars
     char atcCallSign[32] = "\0";
     char atcFlightNumber[32] = "\0";
     double atcHeavy = 0;
-    double landingRate = -999;
-    double skytrackState = 0;
-
     // gps
     double latitide = 0;
     double longitude = 0;
+    // internal
+    double landingRate = -999;
+    double skytrackState = 0;
 };
 
 enum EVENT_ID {
