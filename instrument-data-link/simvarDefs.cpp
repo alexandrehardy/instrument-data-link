@@ -161,6 +161,9 @@ const char* SimVarDefs[][2] = {
     // Internal variables must come last
     { "Landing Rate", "internal" },
     { "Skytrack State", "internal" },
+    // GPS
+    { "PLANE LATITUDE", "degrees" },
+    { "PLANE LONGITUDE", "degrees" },
     { NULL, NULL }
 };
 

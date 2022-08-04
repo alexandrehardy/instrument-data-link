@@ -164,6 +164,10 @@ struct SimVars
     double atcHeavy = 0;
     double landingRate = -999;
     double skytrackState = 0;
+
+    // gps
+    double latitide = 0;
+    double longitude = 0;
 };
 
 enum EVENT_ID {
